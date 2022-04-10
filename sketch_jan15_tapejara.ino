@@ -9,7 +9,7 @@
 
 #define RECEIVER_INTERRUPT_PIN 2
 #define CHANNEL_AMOUNT 6
-PPMReader ppm(RECEIVER_INTERRUPT_PIN, CHANNEL_AMOUNT, 7000);
+PPMReader ppm(RECEIVER_INTERRUPT_PIN, CHANNEL_AMOUNT);
 
 int servo_left_pin = 9;
 int servo_right_pin = 8;
